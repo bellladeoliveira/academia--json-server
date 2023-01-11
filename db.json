@@ -3,30 +3,30 @@
  {
    
     "instrutores":[
-        {"nome": "Jade", "cargo": "prof_crossfit", "id":1010, "salario":2400 },
-        {"nome": "giovanna", "cargo": "recepção", "id":2020, "salario":2300},
-        {"nome": "Ryan", "cargo": "professor de jump", "id":3030, "salario":2700 },
-        {"nome": "Mariana", "cargo": "Limpeza", "id":4040, "salario":1800 },
-        {"nome": "Lilian", "cargo": "Professor de fintdance", "id":5000, "salario":1400 }
+        {"id":1010,"nome":"Jade", "cargo": "prof_crossfit",  "salario":2400 },
+        {"id":2020,"nome":"giovanna", "cargo": "recepção",  "salario":2300},
+        {"id":3030,"nome":"Ryan", "cargo": "professor de jump", "salario":2700 },
+        {"id":4040,"nome":"Mariana", "cargo": "Limpeza",  "salario":1800 },
+        {"id":5000,"nome":"Lilian", "cargo": "Professor de fintdance","salario":1400 }
     ],
 
     "alunos": [
-        {"nome":"Marcus", "cpf":"197.123.977-62", "id":100, "telefone":"99999-9906" ,"altura": "1.70 ," ,  "peso_atual": "55kg" , "data_inicio": "10/06/2021"  ,"plano": "Básico" , "percentual de gordura":"20%" },
-        {"nome":"Gabriela", "cpf":"123.259.158-22", "id":200, "telefone":"96979-9922",  "altura": "1.58" , "peso_atual": "70kg", "data_inicio": "20/11/2022" , "plano": "medio" ,"percentual de gordura":"4%" },
-        {"nome":"Ester", "cpf":"132.111.111-33", "id":300, "telefone" :"98759-9977" ,"altura": "1.80" , "peso_atual": "80kg"  ,"data_inicio": "05/05/2020" , "plano": "coletivo","percentual de gordura":"30%"},
-        {"nome":"Davi", "cpf":"145.987.187-44", "id":400, "telefone":"94621-9955" , "altura": "1.90" ,"peso_atual": "74kg" , "data_inicio": "10/02/2020", "plano": "VIP" ,"percentual de gordura":"15%"     }
+        {"id":100,"nome":"Marcus", "cpf":"197.123.977-62","telefone":"99999-9906" ,"altura":"1.70 ","peso_atual": "55kg" , "percentual de gordura":"20%","data_inicio": "10/06/2021","plano":"Básico"},
+        {"id":200,"nome":"Gabriela", "cpf":"123.259.158-22","telefone":"96979-9922", "altura":"1.58","peso_atual": "70kg","percentual de gordura":"4%" ,"data_inicio": "20/11/2022","plano":"medio"},
+        {"id":300,"nome":"Ester", "cpf":"132.111.111-33","telefone" :"98759-9977","altura": "1.80","peso_atual": "80kg"  ,"percentual de gordura":"30%","data_inicio": "05/05/2020","plano":"coletivo"},
+        {"id":400,"nome":"Davi", "cpf":"145.987.187-44", "telefone":"94621-9955" , "altura": "1.90","peso_atual": "74kg" ,"percentual de gordura":"15%","data_inicio": "10/02/2020","plano":"VIP"}
     ],
 
     "aulas":[
-    {"id": 700,
-    "aula": "prof_crossfit",
+    {"id":700,
+    "aula":"prof_crossfit",
     "dias_semana": "seg, ter, quar,qui, sex",
     "instrutor": "Jade"},
 
 
     {"id": 850,
-    "aula": "Professor de fintdance",
-    "dias_semana": " terça, quarta,sexta",
+    "aula":"Professor de fintdance",
+    "dias_semana":" terça, quarta,sexta",
     "instrutor": "Lilian"},
 
     {"id": 3030,
@@ -37,7 +37,7 @@
     {"id": 9000,
     "aula": "Limpeza",
     "dias_semana": "seg, ter, quar,qui, sex",
-    "instrutor": "Mariana"}
+    "instrutor":"Mariana"}
 
 ],
 
@@ -45,21 +45,21 @@
     {
         "id": 450,
         "tipo": "básico",
-        "mensalidade": "R$70,99",
-        "serviços": " musculação"
+        "mensalidade":"R$70,99",
+        "serviços":" musculação"
       },
       {
         "id": 550,
-        "tipo": "medio",
-        "mensalidade": "R$ 100,00",
-        "serviços": "área de aeróbico e musculação + uma aula da escolha do cliente"
+        "tipo":"medio",
+        "mensalidade":"R$ 100,00",
+        "serviços":"área de aeróbico e musculação + uma aula da escolha do cliente"
       },
       
       {
         "id": 160,
-        "tipo": "VIP",
-        "mensalidade": "R$ 150,00",
-        "serviços": "área de aeróbico e musculação mais todas as aulas liberadas!"
+        "tipo":"VIP",
+        "mensalidade":"R$ 150,00",
+        "serviços":"área de aeróbico e musculação mais todas as aulas liberadas!"
       }
 ]
 
